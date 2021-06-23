@@ -10,6 +10,6 @@ export const scrollToBotton = (id) => {
 export const scrollToBottonAnimated = (id) => {
   animateScroll.scrollToBottom({
     containerId: id,
-    duration: 250,
+    duration: 0,
   });
 };
