@@ -30,7 +30,7 @@ export const SendMessage = () => {
   };
 
   return (
-    <form onSubmit={onSubmite}>
+    <form onSubmit={onSubmite} autoComplete="off">
       <div className="type_msg row">
         <div className="input_msg_write col-sm-9">
           <input
